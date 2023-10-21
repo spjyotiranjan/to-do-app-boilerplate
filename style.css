@@ -48,7 +48,7 @@ img {
 }
 
 #todolist {
-  width: 500px;
+  width: 610px;
   margin: 20px auto;
   list-style-type: none;
 }
@@ -58,10 +58,25 @@ img {
   padding: 20px;
   box-shadow: -1px -1px 5px 0px gray;
   border-bottom: 5px solid #7055d3;
+  display: flex;
+  justify-content: space-between;
 }
 
 #todolist li a {
   float: right;
   font-size: 16px;
   cursor: pointer;
+}
+span{
+  cursor: pointer;
+}
+.edit{
+  width: 300px;
+  padding: 3px;
+  border: none;
+}
+.editbtn{
+  padding: 5px 30px;
+  border-bottom: 5px solid #7055d3;
+  font-size: medium;
 }
